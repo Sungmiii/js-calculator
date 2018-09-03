@@ -1,8 +1,8 @@
 body {
-    font-family: 'Comfortaa', cursive;
     color: aliceblue;
 }
-h3{
+.caltitle{
+    font-family: 'Pacifico', cursive;
     font-weight: 600;
 }
 h5 {
