@@ -1,0 +1,48 @@
+body {
+    font-family: 'Comfortaa', cursive;
+    color: aliceblue;
+}
+h3{
+    font-weight: 600;
+}
+h5 {
+    font-weight: 300;
+}
+.container{
+    width: 250px;
+    height: 335px;
+    background-color: rgb(167, 181, 204);
+    box-sizing: border-box;
+    border: 1px solid pink;
+    margin-top: 30px;
+    padding: 25px
+    
+}
+
+header{
+    text-align: center;
+}
+button{
+    width: 40px;
+    height: 30px;
+}
+.plus{
+   height: 57px;
+   z-index: 1;
+}
+.hide {
+    display: hidden;
+}
+
+.bottom {
+    position: relative;
+    bottom:30px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+input[type='text']{
+   background-color: rgb(171, 204, 188);
+}
