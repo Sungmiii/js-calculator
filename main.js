@@ -2,6 +2,9 @@ let entries = [];
 let total = 0;
 let pressNums ="";//number added not just once added 
 
+
+//load
+
 // function for click the button on the calculator
 $('button').click(function(){
     //declare variable pressedbutton and equal to the buttonvalue.
@@ -19,8 +22,14 @@ $('button').click(function(){
         pressNums = "";
         $('#display').val('');
     }else if ( value === 'CE'){
-        $('#display').val(pressNums.substring(0,pressNums.length-1)); // minus 1 from string but still only one 
+        $('#display').val(0,pressNums.substring(pressNums.length-1)); // minus 1 from string but still only one 
     }
-    console.log(value)
+   
+         
+    console.log(value)// check what is my value is on console and is it correct ?
+   
 });
+
+
+
 
