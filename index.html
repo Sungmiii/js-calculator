@@ -20,30 +20,30 @@
     <button class="col" value="ac" id="clear">AC</button>
     <button class="col" value="ce" id="remove">CE</button>
     <button class="col" value="remainder" id="remainder">%</button>
-    <button class="col" value="divide" id="operator">÷</button>
+    <button class="col" value="divide" id="divide" onclick="insert('/')">÷</button>
 </div>
 <div class="row">
-    <button class="col" value="seven" id="seven">7</button>
-    <button class="col" value="eight" id="eight">8</button>
-    <button class="col" value="nine" id="nine">9</button>
-    <button class="col" value="multiple" id="operator">x</button>
+    <button class="col" value="seven" id="seven" onclick="insert(7)">7</button>
+    <button class="col" value="eight" id="eight" onclick="insert(8)">8</button>
+    <button class="col" value="nine" id="nine" onclick="insert(9)">9</button>
+    <button class="col" value="multiple" id="operator" onclick="insert('*')">x</button>
 </div>
 <div class="row">
-    <button class="col" value="four" id="four">4</button>
-    <button class="col" value="five" id="five">5</button>
-    <button class="col" value="six" id="six">6</button>
-    <button class="col" value="subtract" id="operator">-</button>
+    <button class="col" value="four" id="four" onclick="insert(4)">4</button>
+    <button class="col" value="five" id="five" onclick="insert(5)">5</button>
+    <button class="col" value="six" id="six" onclick="insert(6)">6</button>
+    <button class="col" value="subtract" id="subtract" onclick="insert('-')">-</button>
 </div>
 <div class="row">
-    <button class="col" value="one" id="one">1</button>
-    <button class="col" value="two" id="two">2</button>
-    <button class="col" value="three" id="three">3</button>
-    <button class="col plus" value="add" id="operator">+</button>
+    <button class="col" value="one" id="one" onclick="insert(1)">1</button>
+    <button class="col" value="two" id="two" onclick="insert(2)">2</button>
+    <button class="col" value="three" id="three" onclick="insert(3)">3</button>
+    <button class="col plus" value="add" id="add" onclick="insert('+')">+</button>
 </div>
 <div class="row bottom">
-    <button class="col" value="zero" id="zero">0</button>
-    <button class="col" value="dot" id="decimal">.</button>
-    <button class="col" value="equal" id="equal">=</button>
+    <button class="col" value="zero" id="zero" onclick="insert(0)">0</button>
+    <button class="col" value="dot" id="decimal" onclick="insert('.')">.</button>
+    <button class="col" value="equal" id="equal" onclick="total()">=</button>
     <div class="col hide"></div>
     
 </div>
